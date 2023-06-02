@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>idStudio</title>
+	<meta charset="UTF-8" />
+	<meta name="format-detection" content="telephone=no" />
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20230602144453" />
+	<link rel="shortcut icon" href="favicon.ico" />
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<a href="#" class="header__logo">
+					<img src="img/logo.svg" alt="Logo" />
+				</a>
+				<div class="header__menu menu">
+					<div class="menu__inner">
+						<nav class="menu__body">
+							<ul class="menu__list">
+								<li class="menu__item">
+									<a href="" class="menu__link">Services</a>
+								</li>
+								<li class="menu__item">
+									<a href="" class="menu__link">Portfolio</a>
+								</li>
+								<li class="menu__item">
+									<a href="" class="menu__link">Pricing</a>
+								</li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+				<div data-da=".menu__inner, 479.98" class="header__action">
+					<a href="tel:3035550105" class="header__call">(303) 555-0105</a>
+					<!-- <select name="form[select]" data-class-modif="form" class="header__lang">
+            <option value="1" selected>EN</option>
+            <option value="2">UA</option>
+            <option value="3">RU</option>
+         </select> -->
+					<select name="form[select]" class="header__lang">
+						<option value="en" selected>EN</option>
+						<option value="uk">UA</option>
+						<option value="ru">RU</option>
+					</select>
+				</div>
+				<button type="button" class="header__icon icon-menu"><span></span></button>
+			</div>
+		</header>
+
+		<main class="page">
+			<section class="main-block">
+				<div class="main-block__container">
+					<div class="main-block__content">
+						<h1 class="main-block__title">We create your space better</h1>
+						<div class="main-block__text">
+							Our team creates comfortable spaces for our clients. We’ve been designing your everyday life and
+							work through great ideas since 1999.
+						</div>
+						<button type="button" class="main-block__button button">Get started</button>
+					</div>
+					<div class="main-block__box">
+						<div class="main-block__image">
+							<img src="img/main-block/bg-img.jpg" alt="Image" />
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="about">
+				<div class="about__container">
+					<h2 class="about__title">About <br /><span>Studio</span></h2>
+					<div class="about__text">
+						<p>
+							Interiart is an award-winning architecture and interior design practice based in NYC. We work
+							internationally on projects of residential & commercial interior design that require a creative
+							approach. Our talented and experienced designers leverage their knowledge and expertise to
+							create unique and comfortable interiors for you.
+						</p>
+						<p>
+							Our team knows that interior design can be stressful for the client and we do our best to make
+							it as easy as possible. We listen to your needs, ideas, and inputs. And most importantly, we
+							make it exciting and enjoyable for our clients.
+						</p>
+					</div>
+				</div>
+			</section>
+			<section class="services">
+				<div class="services__container">
+					<h2 class="services__title">Our <span>Services</span></h2>
+					<div class="services__cards">
+						<article class="services__card card-services">
+							<div class="card-services__inner">
+								<div class="card-services__icon">
+									<img src="img/services/service-icon-01.svg" alt="Icon-01" />
+								</div>
+								<h3 class="card-services__label">INTERIOR DESIGN</h3>
+								<div class="card-services__text">
+									<p>
+										Interior design services offer a vast variety of solutions for our clients’ homes and
+										offices.
+									</p>
+								</div>
+							</div>
+						</article>
+						<article class="services__card card-services">
+							<div class="card-services__inner">
+								<div class="card-services__icon">
+									<img src="img/services/service-icon-02.svg" alt="Icon-02" />
+								</div>
+								<h3 class="card-services__label">DECORATIVE SERVICES</h3>
+								<div class="card-services__text">
+									<p>
+										Our professional decorators will be happy to help you change your house’s inner look.
+									</p>
+								</div>
+							</div>
+						</article>
+						<article class="services__card card-services">
+							<div class="card-services__inner">
+								<div class="card-services__icon">
+									<img src="img/services/service-icon-03.svg" alt="Icon-03" />
+								</div>
+								<h3 class="card-services__label">SPACE PLANNING</h3>
+								<div class="card-services__text">
+									<p>We create better interior experiences through our space planning services.</p>
+								</div>
+							</div>
+						</article>
+						<article class="services__card card-services">
+							<div class="card-services__inner">
+								<div class="card-services__icon">
+									<img src="img/services/service-icon-04.svg" alt="Icon-04" />
+								</div>
+								<h3 class="card-services__label">PROJECT MANAGEMENT</h3>
+								<div class="card-services__text">
+									<p>
+										We provide proper project management as it’s one of the main success factors in
+										interior design.
+									</p>
+								</div>
+							</div>
+						</article>
+					</div>
+					<button type="button" class="services__button button">Free consultation</button>
+				</div>
+			</section>
+			<section class="portfolio">
+				<div class="portfolio__container">
+					<h2 class="portfolio__title">Our <span>Portfolio</span></h2>
+					<div class="portfolio__content">
+						<div class="portfolio__filter">
+							<button data-filter="all" type="button" class="portfolio__button">ALL</button>
+							<button data-filter=".comercial" type="button" class="portfolio__button">COMERCIAL</button>
+							<button data-filter=".residential" type="button" class="portfolio__button">RESIDENTIAL</button>
+							<button data-filter=".office" type="button" class="portfolio__button">OFFICE</button>
+							<button data-filter=".other" type="button" class="portfolio__button">OTHER</button>
+						</div>
+						<a href="#" class="portfolio__view-more">VIEW MORE</a>
+						<div data-gallery class="portfolio__images">
+							<a href="img/portfolio/portfolio-img-01.jpg" class="portfolio__image all comercial">
+								<img src="img/portfolio/portfolio-img-01.jpg" alt="image-01" />
+							</a>
+							<a href="img/portfolio/portfolio-img-02.jpg" class="portfolio__image all other">
+								<img src="img/portfolio/portfolio-img-02.jpg" alt="image-02" />
+							</a>
+							<a href="img/portfolio/portfolio-img-03.jpg" class="portfolio__image all other">
+								<img src="img/portfolio/portfolio-img-03.jpg" alt="image-03" />
+							</a>
+							<a href="img/portfolio/portfolio-img-04.jpg" class="portfolio__image all comercial">
+								<img src="img/portfolio/portfolio-img-04.jpg" alt="image-04" />
+							</a>
+							<a href="img/portfolio/portfolio-img-05.jpg" class="portfolio__image all residential">
+								<img src="img/portfolio/portfolio-img-05.jpg" alt="image-05" />
+							</a>
+							<a href="img/portfolio/portfolio-img-06.jpg" class="portfolio__image all office comercial">
+								<img src="img/portfolio/portfolio-img-06.jpg" alt="image-06" />
+							</a>
+							<a href="img/portfolio/portfolio-img-07.jpg" class="portfolio__image all residential comercial">
+								<img src="img/portfolio/portfolio-img-07.jpg" alt="image-07" />
+							</a>
+							<a href="img/portfolio/portfolio-img-08.jpg" class="portfolio__image all office">
+								<img src="img/portfolio/portfolio-img-08.jpg" alt="image-08" />
+							</a>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="pricing">
+				<div class="pricing__container">
+					<h2 class="pricing__title">Our <span>Pricing</span></h2>
+					<div class="pricing__cards">
+						<atricle class="pricing__card card-pricing">
+							<div class="card-pricing__inner">
+								<div class="card-pricing__type">Basic</div>
+								<div class="card-pricing__price">
+									<div class="card-pricing__image">
+										<img src="img/pricing/$25.png" alt="25$" />
+									</div>
+									<div class="card-pricing__label">per month</div>
+								</div>
+								<div class="card-pricing__text">
+									<p>Interior Design</p>
+									<p>Project Discussion</p>
+									<p>Space Planning</p>
+									<p>Online Consultation</p>
+								</div>
+							</div>
+							<button type="button" class="card-pricing__button button">buy now</button>
+						</atricle>
+						<atricle class="pricing__card card-pricing">
+							<div class="card-pricing__inner">
+								<div class="card-pricing__type">Standart</div>
+								<div class="card-pricing__price">
+									<div class="card-pricing__image">
+										<img src="img/pricing/$50.png" alt="50$" />
+									</div>
+									<div class="card-pricing__label">per month</div>
+								</div>
+								<div class="card-pricing__text">
+									<p>Color Analysis</p>
+									<p>Space Planning</p>
+									<p>Home Remodeling</p>
+									<p>3D Interior Model</p>
+								</div>
+							</div>
+							<button type="button" class="card-pricing__button button">buy now</button>
+						</atricle>
+						<atricle class="pricing__card card-pricing">
+							<div class="card-pricing__inner">
+								<div class="card-pricing__type">Premium</div>
+								<div class="card-pricing__price">
+									<div class="card-pricing__image">
+										<img src="img/pricing/$80.png" alt="80$" />
+									</div>
+									<div class="card-pricing__label">per month</div>
+								</div>
+								<div class="card-pricing__text">
+									<p>Concept Development</p>
+									<p>Decoration Services</p>
+									<p>Interior Architecture</p>
+									<p>Flooring Installation</p>
+								</div>
+							</div>
+							<button type="button" class="card-pricing__button button">buy now</button>
+						</atricle>
+					</div>
+				</div>
+			</section>
+			<section class="review">
+				<div class="review__container">
+					<h2 class="review__title">What <span>People Say</span></h2>
+					<div class="review__slider swiper">
+						<div class="review__wrapper swiper-wrapper">
+							<div class="review__slide slide-review swiper-slide">
+								<div class="slide-review__image">
+									<img src="img/review/AnnetteBlack.png" alt="AnnetteBlack" />
+								</div>
+								<div class="slide-review__info">
+									<div class="slide-review__name">Annette Black 1</div>
+									<div class="slide-review__position">Merchandising Associate</div>
+									<div class="slide-review__socials">
+										<a href="#" class="slide-review__social">
+											<svg>
+												<use xlink:href="img/icons/icons.svg#twitter"></use>
+											</svg>
+										</a>
+										<a href="#" class="slide-review__social">
+											<svg>
+												<use xlink:href="img/icons/icons.svg#linkedin"></use>
+											</svg>
+										</a>
+										<a href="#" class="slide-review__social">
+											<svg>
+												<use xlink:href="img/icons/icons.svg#fb"></use>
+											</svg>
+										</a>
+									</div>
+								</div>
+								<div class="slide-review__text">
+									<p>
+										Convallis non proin ac bibendum. At pharetra sed ultrices semper. Lectus et ornare
+										ultrices urna in. Id non fringilla dignissim ac risus amet eget egestas vestibulum.
+										Aliquet etiam eget nulla nulla odio vel.
+									</p>
+								</div>
+							</div>
+							<div class="review__slide slide-review swiper-slide">
+								<div class="slide-review__image">
+									<img src="img/review/MarvinMcKinney.png" alt="MarvinMcKinney" />
+								</div>
+								<div class="slide-review__info">
+									<div class="slide-review__name">Marvin McKinney 1</div>
+									<div class="slide-review__position">Administrator</div>
+									<div class="slide-review__socials">
+										<a href="#" class="slide-review__social">
+											<svg>
+												<use xlink:href="img/icons/icons.svg#twitter"></use>
+											</svg>
+										</a>
+										<a href="#" class="slide-review__social">
+											<svg>
+												<use xlink:href="img/icons/icons.svg#linkedin"></use>
+											</svg>
+										</a>
+										<a href="#" class="slide-review__social">
+											<svg>
+												<use xlink:href="img/icons/icons.svg#fb"></use>
+											</svg>
+										</a>
+									</div>
+								</div>
+								<div class="slide-review__text">
+									<p>
+										Leo viverra vestibulum amet, scelerisque. Vitae, ultrices mi rhoncus porttitor nulla
+										sed sodales. Curabitur tellus massa, lacinia non at. Lacus, hac fermentum, viverra
+										tortor, eget. Eget egestas eget ultrices vitae.
+									</p>
+								</div>
+							</div>
+							<div class="review__slide slide-review swiper-slide">
+								<div class="slide-review__image">
+									<img src="img/review/AnnetteBlack.png" alt="AnnetteBlack" />
+								</div>
+								<div class="slide-review__info">
+									<div class="slide-review__name">Annette Black 2</div>
+									<div class="slide-review__position">Merchandising Associate</div>
+									<div class="slide-review__socials">
+										<a href="#" class="slide-review__social">
+											<svg>
+												<use xlink:href="img/icons/icons.svg#twitter"></use>
+											</svg>
+										</a>
+										<a href="#" class="slide-review__social">
+											<svg>
+												<use xlink:href="img/icons/icons.svg#linkedin"></use>
+											</svg>
+										</a>
+										<a href="#" class="slide-review__social">
+											<svg>
+												<use xlink:href="img/icons/icons.svg#fb"></use>
+											</svg>
+										</a>
+									</div>
+								</div>
+								<div class="slide-review__text">
+									<p>
+										Convallis non proin ac bibendum. At pharetra sed ultrices semper. Lectus et ornare
+										ultrices urna in. Id non fringilla dignissim ac risus amet eget egestas vestibulum.
+										Aliquet etiam eget nulla nulla odio vel.
+									</p>
+								</div>
+							</div>
+							<div class="review__slide slide-review swiper-slide">
+								<div class="slide-review__image">
+									<img src="img/review/MarvinMcKinney.png" alt="MarvinMcKinney" />
+								</div>
+								<div class="slide-review__info">
+									<div class="slide-review__name">Marvin McKinney 2</div>
+									<div class="slide-review__position">Administrator</div>
+									<div class="slide-review__socials">
+										<a href="#" class="slide-review__social">
+											<svg>
+												<use xlink:href="img/icons/icons.svg#twitter"></use>
+											</svg>
+										</a>
+										<a href="#" class="slide-review__social">
+											<svg>
+												<use xlink:href="img/icons/icons.svg#linkedin"></use>
+											</svg>
+										</a>
+										<a href="#" class="slide-review__social">
+											<svg>
+												<use xlink:href="img/icons/icons.svg#fb"></use>
+											</svg>
+										</a>
+									</div>
+								</div>
+								<div class="slide-review__text">
+									<p>
+										Leo viverra vestibulum amet, scelerisque. Vitae, ultrices mi rhoncus porttitor nulla
+										sed sodales. Curabitur tellus massa, lacinia non at. Lacus, hac fermentum, viverra
+										tortor, eget. Eget egestas eget ultrices vitae.
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="review__pagination swiper-pagination"></div>
+					</div>
+				</div>
+			</section>
+			<section class="question">
+				<div class="question__container">
+					<h2 class="question__title">Do you have <span>any question?</span></h2>
+					<button type="button" class="question__button button">order a call</button>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__info info-footer">
+					<a href="#" class="info-footer__logo">
+						<img src="img/logo.svg" alt="Logo" />
+					</a>
+					<div class="info-footer__text">
+						<p>
+							We are one of the leading interior design and remodeling studios available for all of your residential
+							and commercial interior design needs.
+						</p>
+					</div>
+				</div>
+				<div class="footer__navigation navigation-footer">
+					<h3 class="navigation-footer__title title-footer">Navigation</h3>
+					<div class="navigation-footer__menu menu-navigation">
+						<nav class="menu-navigation__body">
+							<ul class="menu-navigation__list">
+								<li class="menu-navigation__item">
+									<a href="#" class="menu-navigation__link">About</a>
+								</li>
+								<li class="menu-navigation__item">
+									<a href="#" class="menu-navigation__link">Services</a>
+								</li>
+								<li class="menu-navigation__item">
+									<a href="#" class="menu-navigation__link">Portfolio</a>
+								</li>
+								<li class="menu-navigation__item">
+									<a href="#" class="menu-navigation__link">Pricing</a>
+								</li>
+								<li class="menu-navigation__item">
+									<a href="#" class="menu-navigation__link">Testemonials</a>
+								</li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+				<div class="footer__contacts contacts-footer">
+					<h3 class="contacts-footer__title title-footer">CONTACTS</h3>
+					<div class="contacts-footer__blocks">
+						<div class="contacts-footer__block">
+							<h4 class="contacts-footer__heading">ADRESS</h4>
+							<a target="_blank" href="https://goo.gl/maps/ByR17gY5fqNpSwMh6" class="contacts-footer__text contacts-footer__text_address">3517 W. Gray St. Utica, Pennsylvania 57867</a>
+						</div>
+						<div class="contacts-footer__block">
+							<h4 class="contacts-footer__heading">EMAIL</h4>
+							<a href="mailto:michelle.rivera@idstudio.com" class="contacts-footer__text contacts-footer__text_mail">michelle.rivera@idstudio.com</a>
+						</div>
+						<div class="contacts-footer__block">
+							<h4 class="contacts-footer__heading">PHONES</h4>
+							<div class="contacts-footer__text contacts-footer__text_phone">
+								<a href="tel:8085550111">(808) 555-0111</a> or <a href="tel:3035550105">(303) 555-0105</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="footer__copy">© 2023 id Studio. All Rights Reserved.</div>
+				<div class="footer__socials">
+					<a href="#" class="footer__social">
+						<svg>
+							<use xlink:href="img/icons/icons.svg#twitter"></use>
+						</svg>
+					</a>
+					<a href="#" class="footer__social">
+						<svg>
+							<use xlink:href="img/icons/icons.svg#linkedin"></use>
+						</svg>
+					</a>
+					<a href="#" class="footer__social">
+						<svg>
+							<use xlink:href="img/icons/icons.svg#fb"></use>
+						</svg>
+					</a>
+				</div>
+			</div>
+		</footer>
+
+	</div>
+	<script src="js/app.min.js?_v=20230602144453"></script>
+</body>
+
+</html>
